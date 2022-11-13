@@ -13,10 +13,13 @@ export default function App() {
 const Home = () => {
   return (
     <View style={styles.container}>
+      <Text>
+        This will be the home screen of our app
+      </Text>
 
-      
+
     </View>
-  )
+  );
 }
 
 const styles = StyleSheet.create({
